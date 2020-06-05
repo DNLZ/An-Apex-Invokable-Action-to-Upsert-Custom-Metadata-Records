@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Upsert_Custom_Metadata_Record</name>
+        <label>Upsert Custom Metadata Record</label>
+        <locationX>238</locationX>
+        <locationY>56</locationY>
+        <actionName>UpsertCustomMetadataRecordAction</actionName>
+        <actionType>apex</actionType>
+        <inputParameters>
+            <name>exampleField</name>
+            <value>
+                <stringValue>Hi 3</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>label</name>
+            <value>
+                <stringValue>Test 3</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>name</name>
+            <value>
+                <stringValue>Test3</stringValue>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <interviewLabel>Upsert Custom Metadata Record Example {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Upsert Custom Metadata Record Example</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>50</locationX>
+        <locationY>50</locationY>
+        <connector>
+            <targetReference>Upsert_Custom_Metadata_Record</targetReference>
+        </connector>
+    </start>
+    <status>Draft</status>
+</Flow>
